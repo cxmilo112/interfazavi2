@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVI - SENA</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="logo sena sof.png" alt="Logo SENA" class="logo">
+        <h1>Bienvenido al Sistema AVI</h1>
+        <nav>
+            <a href="#login">Login</a>
+            <a href="#formulario">Formulario</a>
+        </nav>
+    </header>
+
+    <section id="login" class="seccion">
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required><br>
+            <label for="clave">Contraseña:</label>
+            <input type="password" id="clave" name="clave" required><br>
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+
+    <section id="formulario" class="seccion">
+        <h2>Formulario de Registro</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - SENA</p>
+        <img src="sena sof.png" alt="Gato SENA" class="gato">
+    </footer>
+
+    <!-- Enlace al JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
